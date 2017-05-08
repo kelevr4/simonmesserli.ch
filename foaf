@@ -1,0 +1,20 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://simonmesserli.ch/foaf>
+    dc:title "Simon Messerli's FOAF file" ;
+    a foaf:PersonalProfileDocument ;
+    foaf:maker <https://simonmesserli.ch/foaf#me> ;
+    foaf:primaryTopic <https://simonmesserli.ch/foaf#me> .
+
+<https://simonmesserli.ch/foaf#me>
+    a foaf:Person ;
+    foaf:family_name "Messerli" ;
+    foaf:givenname "Simon" ;
+    foaf:homepage <https://simonmesserli.ch> ;
+    foaf:knows <http://ktk.netlabs.org/foaf#me>, <https://christalanz.ch/foaf#me>, <https://www.bergnet.org/people/bergi/card#me> ;
+    foaf:mbox <mailto:mail@simonmesser.li> ;
+    foaf:name "Simon Messerli" ;
+    foaf:title "Mr" .
